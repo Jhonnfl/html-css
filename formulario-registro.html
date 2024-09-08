@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario de Registro</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
     <h1>Formulario de Contacto</h1>
-    <form action="" method="get">
-        <label for="">Nombres</label>
-        <input type="text" name="txtnombre" id="txtnombre">
-        <label for="">Apellidos</label>
-        <input type="text" name="txtapellido" id="txtapellido">
-        <label for="">Correo electrónico</label>
-        <input type="email" name="txtemail" id="txtemail">
-        <label for="">Teléfono</label>
-        <input type="number" name="txtphone" id="txtphone">
-        <label for="">Dirección</label>
-        <input type="text" name="txtnombre" id="txtnombre">
+
+    <form class="form-register" action="" method="get">
+      <div class="container">
+        <div class="camp-register">
+          <label for="">Nombres</label>
+          <input type="text" name="txtnombre" id="txtnombre" />
+        </div>
+        <div class="camp-register">
+          <label for="">Apellidos</label>
+          <input type="text" name="txtapellido" id="txtapellido" />
+        </div>
+        <div class="camp-register">
+          <label for="">Correo electrónico</label>
+          <input type="email" name="txtemail" id="txtemail" />
+        </div>
+        <div class="camp-register">
+          <label for="">Teléfono</label>
+          <input type="tel" name="txtphone" id="txtphone" />
+        </div>
+        <div class="camp-register">
+          <label for="">Dirección</label>
+          <input type="text" name="txtdireccion" id="txtdireccion" />
+        </div>
+      </div>
     </form>
-</body>
+  </body>
 </html>
